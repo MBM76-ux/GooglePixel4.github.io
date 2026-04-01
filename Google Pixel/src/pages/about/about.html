@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About - Google Pixel</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100">
+
+    <!-- Navbar -->
+    <nav class="bg-black shadow items-center p-5 flex justify-between text-white">
+
+        <h1 class="text-2xl font-bold cursor-pointer hover:scale-110 transition">
+            Google Pixel
+        </h1>
+
+        <ul class="flex gap-6 font-medium">
+
+            <li><a href="../../../index.html"
+                    class="hover:text-black hover:bg-white px-3 py-2 hover:rounded-2xl transition duration-300">Home</a>
+            </li>
+            <li><a href="../about/about.html"
+                    class="hover:text-black hover:bg-white px-3 py-2 hover:rounded-2xl transition duration-300">About</a>
+            </li>
+            <li><a href="../contact/contact.html"
+                    class="hover:text-black hover:bg-white px-3 py-2 hover:rounded-2xl transition duration-300">Contact</a>
+            </li>
+            <li><a href="../signin/signin.html"
+                    class="hover:text-black hover:bg-white px-3 py-2 hover:rounded-2xl transition duration-300">Sign
+                    In</a></li>
+            <li><a href="../signup/signup.html"
+                    class="hover:text-black hover:bg-white px-3 py-2 hover:rounded-2xl transition duration-300">Sign
+                    Up</a></li>
+
+        </ul>
+        <button id="themeToggleBtn" onclick="toggleTheme()"
+            class="ml-4 border border-gray-500 text-white text-xs font-mono px-3 py-1.5 rounded hover:border-blue-400 hover:text-blue-400 transition">
+            🌙 Dark
+        </button>
+    </nav>
+
+    <!-- Hero -->
+    <section class="text-center py-20 bg-gray-900 text-white">
+
+        <h1 class="text-4xl font-bold animate-pulse">
+            About Google Pixel
+        </h1>
+
+        <p class="mt-4 max-w-xl mx-auto">
+            Smartphones powered by AI, innovation, and performance.
+        </p>
+
+    </section>
+
+    <!-- Mission + Innovation -->
+    <section class="p-12 grid md:grid-cols-2 gap-10">
+
+        <div class="bg-white p-6 rounded shadow transform hover:scale-105 hover:shadow-2xl transition duration-300">
+            <h2 class="text-3xl font-bold">Our Mission</h2>
+            <p class="mt-4 text-gray-600">
+                Deliver powerful smartphones with Google's AI to improve daily life.
+            </p>
+        </div>
+
+        <div class="bg-white p-6 rounded shadow transform hover:scale-105 hover:shadow-2xl transition duration-300">
+            <h2 class="text-3xl font-bold">Our Innovation</h2>
+            <p class="mt-4 text-gray-600">
+                Features like Magic Eraser, Night Sight, and AI tools.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Timeline (Component 1) -->
+    <section class="p-12 bg-white">
+
+        <h2 class="text-3xl font-bold text-center mb-10">Our Journey</h2>
+
+        <div class="space-y-6 max-w-2xl mx-auto">
+
+            <div class="p-4 border-l-4 border-black">
+                <h3 class="font-bold">2016</h3>
+                <p>First Pixel phone launched</p>
+            </div>
+
+            <div class="p-4 border-l-4 border-black">
+                <h3 class="font-bold">2019</h3>
+                <p>AI camera revolution</p>
+            </div>
+
+            <div class="p-4 border-l-4 border-black">
+                <h3 class="font-bold">2023</h3>
+                <p>Pixel Fold introduced</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Stats (Component 2) -->
+    <section class="bg-gray-900 py-16 text-white text-center">
+
+        <div class="grid md:grid-cols-3 gap-10">
+
+            <div>
+                <h2 class="text-4xl font-bold">10M+</h2>
+                <p>Users</p>
+            </div>
+
+            <div>
+                <h2 class="text-4xl font-bold">20+</h2>
+                <p>Countries</p>
+            </div>
+
+            <div>
+                <h2 class="text-4xl font-bold">8+</h2>
+                <p>Models</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Team (Component 3) -->
+    <section class="p-12 text-center">
+
+        <h2 class="text-3xl font-bold">Our Team</h2>
+
+        <div class="grid md:grid-cols-3 gap-8 mt-10">
+
+            <div class="bg-white shadow p-6 rounded transform hover:scale-105 hover:shadow-2xl transition duration-300">
+                <img src="../../../asset/images/designer.jpg" class="mx-auto w-40 h-40 rounded-full">
+                <h3 class="mt-4 font-bold">Designer</h3>
+            </div>
+
+            <div class="bg-white shadow p-6 rounded transform hover:scale-105 hover:shadow-2xl transition duration-300">
+                <img src="../../../asset/images/engineer.jpg" class="mx-auto w-40 h-40 rounded-full">
+                <h3 class="mt-4 font-bold">Engineer</h3>
+            </div>
+
+            <div class="bg-white shadow p-6 rounded transform hover:scale-105 hover:shadow-2xl transition duration-300">
+                <img src="../../../asset/images/specialist.jpg" class="mx-auto w-40 h-40 rounded-full">
+                <h3 class="mt-4 font-bold">AI Specialist</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Testimonials (Component 4) -->
+    <section class="bg-gray-100 p-12 text-center">
+
+        <h2 class="text-3xl font-bold mb-8">Testimonials</h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <div class="bg-white p-6 rounded shadow">
+                <p>"Best Android phone ever!"</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <p>"Camera is insane 🔥"</p>
+            </div>
+
+            <div class="bg-white p-6 rounded shadow">
+                <p>"Super smooth experience"</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FAQ Accordion (Component 5) -->
+    <section class="p-12 bg-white">
+
+        <h2 class="text-3xl font-bold text-center mb-6">FAQ</h2>
+
+        <div class="max-w-2xl mx-auto space-y-4">
+
+            <details class="p-4 shadow rounded">
+                <summary class="font-medium cursor-pointer">What is Pixel?</summary>
+                <p class="mt-2 text-gray-600">Google's premium smartphone.</p>
+            </details>
+
+            <details class="p-4 shadow rounded">
+                <summary class="font-medium cursor-pointer">Is Pixel good?</summary>
+                <p class="mt-2 text-gray-600">Yes, especially for camera & AI.</p>
+            </details>
+
+            <details class="p-4 shadow rounded">
+                <summary class="font-medium cursor-pointer">Battery timing?</summary>
+                <p class="mt-2 text-gray-600">All-day battery performance.</p>
+            </details>
+
+        </div>
+
+    </section>
+    <footer class="bg-black text-white text-center p-6">
+        <p>© 2026 Google Pixel Clone | All Rights Reserved</p>
+    </footer>
+    <script>
+        const applyTheme = (t) => {
+            document.body.classList.toggle('bg-gray-100', t==='light');
+            document.body.classList.toggle('bg-gray-900', t==='dark');
+            const btn = document.getElementById('themeToggleBtn');
+            if(btn) btn.textContent = t==='dark' ? '☀️ Light' : '🌙 Dark';
+        };
+        const toggleTheme = () => {
+            const cur = localStorage.getItem('theme')||'dark';
+            const next = cur==='dark'?'light':'dark';
+            localStorage.setItem('theme', next);
+            applyTheme(next);
+        };
+        applyTheme(localStorage.getItem('theme')||'dark');
+    </script>
+</body>
+</html>
